@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/stadium"
+    android:weightSum="1"
+    tools:context="fun.music.com.example.android.businesscard.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#a6f5df38"
+        android:text="       CHELSEA FC OFFICAL WEBSITE"
+        android:textColorHighlight="#b71414"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#842757db"
+        android:text=" English professional football club based in Fulham, Home Ground Stamford Bridge....."
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:textColor="#f78400" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:background="#8238a6a2" />
+
+
+</RelativeLayout>
