@@ -15,7 +15,8 @@
         android:background="#a6f5df38"
         android:text="       CHELSEA FC OFFICAL WEBSITE"
         android:textColorHighlight="#b71414"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:onClick="push"/>
 
     <TextView
         android:id="@+id/textView"
